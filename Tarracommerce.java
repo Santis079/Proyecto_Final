@@ -1,7 +1,5 @@
 import java.util.HashMap;
 import java.util.Map;
-
-
 class Producto {
     private int id;
     private String nombre;
@@ -25,7 +23,6 @@ class Producto {
         return precio;
     }
 }
-
 
 class CarritoDeCompras {
     private Map<Integer, Producto> productosEnCarrito;
@@ -54,41 +51,66 @@ class CarritoDeCompras {
     }
 }
 
-
 public class Tarracommerce {
+    private static final String ADMIN_PASSWORD = "CajaR";
+    private static Map<String, Map<String, Object>> stockProductos = new HashMap<>();
+    private static Map<String, Integer> carrito = new HashMap<>();
+    private static Map<String, Integer> ventas = new HashMap<>();
+    private static double ivaPorDefecto = 0.21; // IVA por defecto (21%)
+
     private static Map<Integer, Producto> catalogoProductos = new HashMap<>();
     private static CarritoDeCompras carritoDeCompras = new CarritoDeCompras();
 
     public static void main(String[] args) {
-        inicializarProductos();
+        inicializarBaseDeDatos();
+        mostrarProductosDisponibles();
 
-        // Simulación de operaciones de la tienda
-        agregarProductoAlCarrito(1);
-        agregarProductoAlCarrito(2);
-        agregarProductoAlCarrito(3);
-
-        mostrarCarrito();
-        double total = carritoDeCompras.calcularTotal();
-        System.out.println("Total a pagar: $" + total);
+        Tienda tienda = new Tienda();
+        tienda.iniciarVentas();
     }
 
+    static class Tienda {
 
-    private static void inicializarProductos() {
+        private Map<String, Double> productos;
+
+        public Tienda() {
+            productos = new HashMap<>();
+        }
+
+        public void iniciarVentas() {
+            gestionarVentas();
+        }
+
+        private void gestionarVentas() {
+        }
+
+        private void agregarProducto() {
+
+        }
+
+        private void agregarCarrito() {
+        }
+
+        private void modificarProducto() {
+
+        }
+
+        private void verStock() {
+
+        }
+    }
+
+    private static void inicializarBaseDeDatos() {
+
         catalogoProductos.put(1, new Producto(1, "Producto 1", 50.0));
         catalogoProductos.put(2, new Producto(2, "Producto 2", 65.0));
         catalogoProductos.put(3, new Producto(3, "Producto 3", 80.0));
     }
 
-    private static void agregarProductoAlCarrito(int idProducto) {
-        Producto producto = catalogoProductos.get(idProducto);
-        if (producto != null) {
-            carritoDeCompras.agregarProducto(producto);
-            System.out.println("Producto agregado al carrito: " + producto.getNombre());
-        } else {
-            System.out.println("Producto no encontrado con ID: " + idProducto);
+    private static void mostrarProductosDisponibles() {
+        System.out.println("Productos disponibles:");
+        for (Producto producto : catalogoProductos.values()) {
+            System.out.println("ID: " + producto.getId() + ", Nombre: " + producto.getNombre() + ", Precio: $" + producto.getPrecio());
         }
-    }
-    private static void mostrarCarrito() {
-        carritoDeCompras.mostrarCarrito();
     }
 }
