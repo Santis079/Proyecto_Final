@@ -2,28 +2,28 @@ const express = require('express');
 const router = express.Router();
 const Product = require('../models/product');
 
-// Get all products
+
 router.get('/', async (req, res) => {
     try {
-        const products = await Product.find();
-        res.json(products);
+        const producto = await producto.find();
+        res.json(producto);
     } catch (err) {
         res.status(500).json({ message: err.message });
     }
 });
 
-// Create a new product
+
 router.post('/', async (req, res) => {
-    const product = new Product({
-        name: req.body.name,
-        description: req.body.description,
-        price: req.body.price,
+    const producto = new producto({
+        nombre: req.body.nombre,
+        descripcion: req.body.descripcion,
+        precio: req.body.precio,
         stock: req.body.stock,
-        category: req.body.category,
+        categoria: req.body.categoria,
     });
     try {
-        const newProduct = await product.save();
-        res.status(201).json(newProduct);
+        const newProducto = await producto.save();
+        res.status(201).json(newProducto);
     } catch (err) {
         res.status(400).json({ message: err.message });
     }

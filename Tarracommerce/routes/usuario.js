@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
+const usuario = require('../models/usuario');
 
-// Get all users
 router.get('/', async (req, res) => {
     try {
         const users = await User.find();
@@ -12,17 +12,17 @@ router.get('/', async (req, res) => {
     }
 });
 
-// Create a new user
+
 router.post('/', async (req, res) => {
-    const user = new User({
-        name: req.body.name,
+    const usuario = new usuario({
+        nombre: req.body.nombre,
         email: req.body.email,
         password: req.body.password,
-        address: req.body.address,
+        direccion: req.body.direccion,
     });
     try {
-        const newUser = await user.save();
-        res.status(201).json(newUser);
+        const newUsuario = await usuario.save();
+        res.status(201).json(newUsuario);
     } catch (err) {
         res.status(400).json({ message: err.message });
     }
