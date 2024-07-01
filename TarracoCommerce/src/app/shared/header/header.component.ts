@@ -10,22 +10,23 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   img {
     margin-right: 5px;
   }
+  button:hover {
+    cursor: pointer;
+  }
   input:focus {
     outline: none;
   }
   #header {
-    position: fixed;
-    top: 0;
-    left: 0;
+    
     background-color:  #1D1D1D;
     width: 100%;
     // background: linear-gradient(to right, #1D1D1D 15%, #252422 45% 55%, #1D1D1D 85%);
     display: flex;
   }
-  #empresa > a{
+  #empresa > a {
     text-decoration: none;
   }
-  #empresa > p{
+  #empresa > p {
     margin-top: 0;
   }
   #superior {
@@ -96,29 +97,30 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   }
   .desplegable:hover .elementos-desplegable {
     display: grid;
-    grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-auto-flow: column;
-    grid-auto-rows: auto;
-    grid-auto-columns: auto;
-    row-gap: 10px;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
     column-gap: 2px;
   }
   .elementos-desplegable {
     display: none;
     position: absolute;
-    background: rgba(240, 240, 240);
+    background-color: black;
     justify-content: stretch;
     align-content: stretch;
     z-index: 1;
     top: 100%;
     left: 0;
   }
+  .elementos-desplegable > div {
+    background-color: #7b7b7b;
+    padding: 5px;
+  }
   .elementos-desplegable > div > a {
     color: white;
     text-decoration: none;
-  }
-  .elementos-desplegable  > * {
-    background-color: black;
+    text-wrap: nowrap;
   }
   .barraBusqueda {
     display: flex;
@@ -138,11 +140,11 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     width: 120px;
   }
   .primero {
-    border-left: 0;
+    border-right: 1px solid #fff;
     width: 120px;
   }
   .ultimo {
-    border-right: 0;
+    border-left: 1px solid #fff;
     width: 120px;
   }
   `,
