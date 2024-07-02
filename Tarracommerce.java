@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+
 class Producto {
     private int id;
     private String nombre;
@@ -52,12 +53,7 @@ class CarritoDeCompras {
 }
 
 public class Tarracommerce {
-    private static final String ADMIN_PASSWORD = "CajaR";
-    private static Map<String, Map<String, Object>> stockProductos = new HashMap<>();
-    private static Map<String, Integer> carrito = new HashMap<>();
-    private static Map<String, Integer> ventas = new HashMap<>();
-    private static double ivaPorDefecto = 0.21; // IVA por defecto (21%)
-
+    private static final String ADMIN_PASSWORD = "";
     private static Map<Integer, Producto> catalogoProductos = new HashMap<>();
     private static CarritoDeCompras carritoDeCompras = new CarritoDeCompras();
 
@@ -70,11 +66,7 @@ public class Tarracommerce {
     }
 
     static class Tienda {
-
-        private Map<String, Double> productos;
-
         public Tienda() {
-            productos = new HashMap<>();
         }
 
         public void iniciarVentas() {
@@ -82,26 +74,26 @@ public class Tarracommerce {
         }
 
         private void gestionarVentas() {
+            
         }
 
         private void agregarProducto() {
-
+            
         }
 
         private void agregarCarrito() {
+            
         }
 
         private void modificarProducto() {
-
+            
         }
 
         private void verStock() {
-
         }
     }
 
     private static void inicializarBaseDeDatos() {
-
         catalogoProductos.put(1, new Producto(1, "Producto 1", 50.0));
         catalogoProductos.put(2, new Producto(2, "Producto 2", 65.0));
         catalogoProductos.put(3, new Producto(3, "Producto 3", 80.0));
