@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const sequelize = require('./config/database');
 
 require('./models/Usuario');
-require('./models/Negocio');
+require('./models/negocio');
 require('./models/Producto');
 require('./models/Pedido');
 require('./models/DetallePedido');
