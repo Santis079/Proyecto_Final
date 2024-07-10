@@ -1,0 +1,674 @@
+{
+  "negocios": {
+    "accesorios_movil": {
+      "descripcion": "Tienda especializada en accesorios para móviles y gadgets.",
+      "imagenes": [
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/AccesoriosMovil1.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/AccesoriosMovil2.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/AccesoriosMovil3.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/AccesoriosMovil4.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/AccesoriosMovil5.jpg"
+      ],
+      "nombre": "Accesorios Móvil Tarragona"
+    },
+    "artesania": {
+      "descripcion": "Tienda especializada en productos artesanales únicos y hechos a mano.",
+      "imagenes": [
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Artesania1.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Artesania2.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Artesania3.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Artesania4.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Artesania5.jpg"
+      ],
+      "nombre": "Artesanías de Tarragona"
+    },
+    "ropa": {
+      "descripcion": "Boutique de moda con las últimas tendencias en ropa y accesorios.",
+      "imagenes": [
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Ropa1.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Ropa2.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Ropa3.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Ropa4.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Ropa5.jpg"
+      ],
+      "nombre": "Moda Tarragona"
+    },
+    "souvenirs": {
+      "descripcion": "Tienda de souvenirs con una amplia variedad de recuerdos locales.",
+      "imagenes": [
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Souvenirs1.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Souvenirs2.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Souvenirs3.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Souvenirs4.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Souvenirs5.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Souvenirs6.jpg"
+      ],
+      "nombre": "Souvenirs Tarragona"
+    },
+    "zapateria": {
+      "descripcion": "Zapatería con una gran selección de calzado para todas las ocasiones.",
+      "imagenes": [
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria1.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria2.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria3.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria4.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria5.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria6.jpg",
+        "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Negocios/Zapateria7.jpg"
+      ],
+      "nombre": "Zapatería Tarragona"
+    }
+  },
+  "productos": {
+    "accesorios_movil": [
+      {
+        "descripcion": "Funda de silicona para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Funda%20de%20silicona.jpg",
+        "nombre": "Funda de Silicona",
+        "precio": 8
+      },
+      {
+        "descripcion": "Protector de pantalla para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Protector%20de%20pantalla.jpg",
+        "nombre": "Protector de Pantalla",
+        "precio": 5
+      },
+      {
+        "descripcion": "Cargador rápido para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Cargador%20r%C3%A1pido.jpg",
+        "nombre": "Cargador Rápido",
+        "precio": 12
+      },
+      {
+        "descripcion": "Soporte para móvil en coche",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Soporte%20para%20coche.jpg",
+        "nombre": "Soporte para Coche",
+        "precio": 10
+      },
+      {
+        "descripcion": "Auriculares Bluetooth",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Auriculares%20Bluetooth.jpg",
+        "nombre": "Auriculares Bluetooth",
+        "precio": 20
+      },
+      {
+        "descripcion": "Cable USB-C para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Cable%20USB-C.jpg",
+        "nombre": "Cable USB-C",
+        "precio": 7
+      },
+      {
+        "descripcion": "Power bank para cargar móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Power%20bank.jpg",
+        "nombre": "Power Bank",
+        "precio": 15
+      },
+      {
+        "descripcion": "Lente para cámara del móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Lente%20para%20c%C3%A1mara%20del%20m%C3%B3vil.jpg",
+        "nombre": "Lente para Cámara del Móvil",
+        "precio": 18
+      },
+      {
+        "descripcion": "Soporte de anillo para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Soporte%20de%20anillo.jpg",
+        "nombre": "Soporte de Anillo",
+        "precio": 5
+      },
+      {
+        "descripcion": "Estuche para auriculares",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Estuche%20para%20auriculares.jpg",
+        "nombre": "Estuche para Auriculares",
+        "precio": 8
+      },
+      {
+        "descripcion": "Adaptador de audio para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Adaptador%20de%20audio.jpg",
+        "nombre": "Adaptador de Audio",
+        "precio": 4
+      },
+      {
+        "descripcion": "Tarjeta de memoria para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Tarjeta%20de%20memoria.jpg",
+        "nombre": "Tarjeta de Memoria",
+        "precio": 10
+      },
+      {
+        "descripcion": "Estuche impermeable para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Estuche%20impermeable.jpg",
+        "nombre": "Estuche Impermeable",
+        "precio": 12
+      },
+      {
+        "descripcion": "Altavoz Bluetooth portátil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Altavoz%20Bluetooth.jpg",
+        "nombre": "Altavoz Bluetooth",
+        "precio": 25
+      },
+      {
+        "descripcion": "Lámpara de selfie para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/L%C3%A1mpara%20de%20selfie.jpg",
+        "nombre": "Lámpara de Selfie",
+        "precio": 10
+      },
+      {
+        "descripcion": "Soporte de escritorio para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Soporte%20de%20escritorio.jpg",
+        "nombre": "Soporte de Escritorio",
+        "precio": 8
+      },
+      {
+        "descripcion": "Guantes táctiles para usar con móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Guantes%20t%C3%A1ctiles.jpg",
+        "nombre": "Guantes Táctiles",
+        "precio": 10
+      },
+      {
+        "descripcion": "Soporte para móvil en bicicleta",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Soporte%20para%20bici.jpg",
+        "nombre": "Soporte para Bici",
+        "precio": 12
+      },
+      {
+        "descripcion": "Teclado Bluetooth portátil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Teclado%20Bluetooth.jpg",
+        "nombre": "Teclado Bluetooth",
+        "precio": 20
+      },
+      {
+        "descripcion": "Estuche de carga inalámbrica para móvil",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/AccesoriosMovil/Estuche%20de%20carga%20inal%C3%A1mbrica.jpg",
+        "nombre": "Estuche de Carga Inalámbrica",
+        "precio": 15
+      }
+    ],
+    "artesania": [
+      {
+        "descripcion": "Jarrón de cerámica hecho a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Jarr%C3%B3n%20de%20cer%C3%A1mica.jpg",
+        "nombre": "Jarrón de Cerámica",
+        "precio": 25
+      },
+      {
+        "descripcion": "Cuadro pintado a mano con motivos locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Cuadro%20pintado%20a%20mano.jpg",
+        "nombre": "Cuadro Pintado a Mano",
+        "precio": 45
+      },
+      {
+        "descripcion": "Estatuilla de madera tallada a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Estatuilla%20de%20madera.jpg",
+        "nombre": "Estatuilla de Madera",
+        "precio": 30
+      },
+      {
+        "descripcion": "Collar hecho a mano con piedras preciosas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Collar%20de%20piedras%20preciosas.jpg",
+        "nombre": "Collar de Piedras Preciosas",
+        "precio": 50
+      },
+      {
+        "descripcion": "Pulsera de cuero hecha a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Pulsera%20de%20cuero.jpg",
+        "nombre": "Pulsera de Cuero",
+        "precio": 20
+      },
+      {
+        "descripcion": "Taza de barro hecha a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Taza%20de%20barro.jpg",
+        "nombre": "Taza de Barro",
+        "precio": 15
+      },
+      {
+        "descripcion": "Escultura de metal hecha a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Escultura%20de%20metal.jpg",
+        "nombre": "Escultura de Metal",
+        "precio": 60
+      },
+      {
+        "descripcion": "Alfombra tejida a mano con patrones coloridos",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Alfombra%20tejida%20a%20mano.jpg",
+        "nombre": "Alfombra Tejida a Mano",
+        "precio": 100
+      },
+      {
+        "descripcion": "Caja de madera con tallados intrincados",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Caja%20de%20madera%20tallada.jpg",
+        "nombre": "Caja de Madera Tallada",
+        "precio": 35
+      },
+      {
+        "descripcion": "Maceta decorativa de barro hecha a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Maceta%20decorativa.jpg",
+        "nombre": "Maceta Decorativa",
+        "precio": 20
+      },
+      {
+        "descripcion": "Lámpara de sal del Himalaya",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/L%C3%A1mpara%20de%20sal.jpg",
+        "nombre": "Lámpara de Sal",
+        "precio": 40
+      },
+      {
+        "descripcion": "Portavelas de vidrio hecho a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Portavelas%20de%20vidrio.jpg",
+        "nombre": "Portavelas de Vidrio",
+        "precio": 18
+      },
+      {
+        "descripcion": "Marco de fotos de madera tallada a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Marco%20de%20fotos%20de%20madera.jpg",
+        "nombre": "Marco de Fotos de Madera",
+        "precio": 25
+      },
+      {
+        "descripcion": "Reloj de pared con diseño artesanal",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Reloj%20de%20pared%20artesanal.jpg",
+        "nombre": "Reloj de Pared Artesanal",
+        "precio": 55
+      },
+      {
+        "descripcion": "Platos decorativos pintados a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Platos%20decorativos.jpg",
+        "nombre": "Platos Decorativos",
+        "precio": 30
+      },
+      {
+        "descripcion": "Espejo con marco de madera tallada a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Espejo%20con%20marco%20tallado.jpg",
+        "nombre": "Espejo con Marco Tallado",
+        "precio": 75
+      },
+      {
+        "descripcion": "Cojines bordados a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Cojines%20bordados.jpg",
+        "nombre": "Cojines Bordados",
+        "precio": 20
+      },
+      {
+        "descripcion": "Móvil de viento hecho a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/M%C3%B3vil%20de%20viento.jpg",
+        "nombre": "Móvil de Viento",
+        "precio": 15
+      },
+      {
+        "descripcion": "Bolsas de tela pintadas a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Bolsas%20de%20tela%20pintadas.jpg",
+        "nombre": "Bolsas de Tela Pintadas",
+        "precio": 12
+      },
+      {
+        "descripcion": "Joyería de plata hecha a mano, incluye collares y pulseras",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Artesania/Joyer%C3%ADa%20de%20plata%20hecha%20a%20mano.jpg",
+        "nombre": "Joyería de Plata Hecha a Mano",
+        "precio": 65
+      }
+    ],
+    "ropa": [
+      {
+        "descripcion": "Camiseta de algodón en color neutro",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Camiseta%20de%20algod%C3%B3n.jpg",
+        "nombre": "Camiseta de Algodón",
+        "precio": 10
+      },
+      {
+        "descripcion": "Pantalones vaqueros azul clásico",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Pantalones%20vaqueros.jpg",
+        "nombre": "Pantalones Vaqueros",
+        "precio": 25
+      },
+      {
+        "descripcion": "Vestido de verano ligero y aireado",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Vestido%20de%20verano.jpg",
+        "nombre": "Vestido de Verano",
+        "precio": 35
+      },
+      {
+        "descripcion": "Chaqueta de cuero clásica",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Chaqueta%20de%20cuero.jpg",
+        "nombre": "Chaqueta de Cuero",
+        "precio": 75
+      },
+      {
+        "descripcion": "Sudadera con capucha y bolsillo frontal",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Sudadera%20con%20capucha.jpg",
+        "nombre": "Sudadera con Capucha",
+        "precio": 30
+      },
+      {
+        "descripcion": "Falda larga con diseño fluido",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Falda%20larga.jpg",
+        "nombre": "Falda Larga",
+        "precio": 25
+      },
+      {
+        "descripcion": "Blusa de seda elegante",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Blusa%20de%20seda.jpg",
+        "nombre": "Blusa de Seda",
+        "precio": 40
+      },
+      {
+        "descripcion": "Suéter de lana cálido",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Su%C3%A9ter%20de%20lana.jpg",
+        "nombre": "Suéter de Lana",
+        "precio": 35
+      },
+      {
+        "descripcion": "Pantalones de chándal cómodos",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Pantalones%20de%20ch%C3%A1ndal.jpg",
+        "nombre": "Pantalones de Chándal",
+        "precio": 20
+      },
+      {
+        "descripcion": "Camisa de lino ligera",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Camisa%20de%20lino.jpg",
+        "nombre": "Camisa de Lino",
+        "precio": 30
+      },
+      {
+        "descripcion": "Abrigo de invierno grueso",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Abrigo%20de%20invierno.jpg",
+        "nombre": "Abrigo de Invierno",
+        "precio": 90
+      },
+      {
+        "descripcion": "Camiseta sin mangas de algodón",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Camiseta%20sin%20mangas.jpg",
+        "nombre": "Camiseta sin Mangas",
+        "precio": 15
+      },
+      {
+        "descripcion": "Pantalones cortos cómodos",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Pantalones%20cortos.jpg",
+        "nombre": "Pantalones Cortos",
+        "precio": 20
+      },
+      {
+        "descripcion": "Bufanda de cachemira suave",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Bufanda%20de%20cachemira.jpg",
+        "nombre": "Bufanda de Cachemira",
+        "precio": 25
+      },
+      {
+        "descripcion": "Gorro de lana cálido",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Gorro%20de%20lana.jpg",
+        "nombre": "Gorro de Lana",
+        "precio": 10
+      },
+      {
+        "descripcion": "Guantes de cuero elegantes",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Guantes%20de%20cuero.jpg",
+        "nombre": "Guantes de Cuero",
+        "precio": 20
+      },
+      {
+        "descripcion": "Traje formal completo",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Traje%20formal.jpg",
+        "nombre": "Traje Formal",
+        "precio": 120
+      },
+      {
+        "descripcion": "Pijama de algodón cómodo",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Pijama%20de%20algod%C3%B3n.jpg",
+        "nombre": "Pijama de Algodón",
+        "precio": 25
+      },
+      {
+        "descripcion": "Calcetines de algodón suaves",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Calcetines%20de%20algod%C3%B3n.jpg",
+        "nombre": "Calcetines de Algodón",
+        "precio": 5
+      },
+      {
+        "descripcion": "Ropa interior de algodón cómoda",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Ropa/Ropa%20interior%20de%20algod%C3%B3n.jpg",
+        "nombre": "Ropa Interior de Algodón",
+        "precio": 15
+      }
+    ],
+    "souvenirs": [
+      {
+        "descripcion": "Imán de nevera con diseño de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Im%C3%A1n%20de%20nevera.jpg",
+        "nombre": "Imán de Nevera",
+        "precio": 5
+      },
+      {
+        "descripcion": "Llaveros con diseños locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Llaveros.jpg",
+        "nombre": "Llaveros",
+        "precio": 3
+      },
+      {
+        "descripcion": "Postales con imágenes de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Postales.jpg",
+        "nombre": "Postales",
+        "precio": 2
+      },
+      {
+        "descripcion": "Camiseta con diseño representando Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Camiseta%20con%20dise%C3%B1o%20local.jpg",
+        "nombre": "Camiseta con Diseño Local",
+        "precio": 15
+      },
+      {
+        "descripcion": "Gorro con logo de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Gorro%20con%20logo%20local.jpg",
+        "nombre": "Gorro con Logo Local",
+        "precio": 10
+      },
+      {
+        "descripcion": "Bolso de mano con diseño local",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Bolso%20de%20mano.jpg",
+        "nombre": "Bolso de Mano",
+        "precio": 20
+      },
+      {
+        "descripcion": "Juguetes de peluche con elementos locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Juguetes%20de%20peluche.jpg",
+        "nombre": "Juguetes de Peluche",
+        "precio": 12
+      },
+      {
+        "descripcion": "Platos decorativos pintados a mano",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Platos%20decorativos.jpg",
+        "nombre": "Platos Decorativos",
+        "precio": 25
+      },
+      {
+        "descripcion": "Tazas con imágenes de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Tazas%20con%20im%C3%A1genes%20locales.jpg",
+        "nombre": "Tazas con Imágenes Locales",
+        "precio": 8
+      },
+      {
+        "descripcion": "Calendario con paisajes de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Calendario%20de%20paisajes.jpg",
+        "nombre": "Calendario de Paisajes",
+        "precio": 10
+      },
+      {
+        "descripcion": "Bolígrafos y lápices con diseños locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Bol%C3%ADgrafos%20y%20l%C3%A1pices.jpg",
+        "nombre": "Bolígrafos y Lápices",
+        "precio": 2
+      },
+      {
+        "descripcion": "Libretas con portadas de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Libretas%20con%20portadas%20locales.jpg",
+        "nombre": "Libretas con Portadas Locales",
+        "precio": 5
+      },
+      {
+        "descripcion": "Marcapáginas con diseños locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Marcap%C3%A1ginas.jpg",
+        "nombre": "Marcapáginas",
+        "precio": 1.5
+      },
+      {
+        "descripcion": "Botella de agua con diseño de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Botella%20de%20agua%20reutilizable.jpg",
+        "nombre": "Botella de Agua Reutilizable",
+        "precio": 12
+      },
+      {
+        "descripcion": "Bolsas de tela con diseños locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Bolsas%20de%20tela.jpg",
+        "nombre": "Bolsas de Tela",
+        "precio": 8
+      },
+      {
+        "descripcion": "Pequeñas esculturas representando Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Peque%C3%B1as%20esculturas.jpg",
+        "nombre": "Pequeñas Esculturas",
+        "precio": 20
+      },
+      {
+        "descripcion": "Reloj de pared con diseño de Tarragona",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Reloj%20de%20pared%20con%20dise%C3%B1o%20local.jpg",
+        "nombre": "Reloj de Pared con Diseño Local",
+        "precio": 30
+      },
+      {
+        "descripcion": "Pegatinas con diseños locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Pegatinas.jpg",
+        "nombre": "Pegatinas",
+        "precio": 1
+      },
+      {
+        "descripcion": "Jarras de cerveza con imágenes locales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Jarras%20de%20cerveza.jpg",
+        "nombre": "Jarras de Cerveza",
+        "precio": 15
+      },
+      {
+        "descripcion": "Abanicos decorativos con diseño local",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Souvenirs/Abanicos%20decorativos.jpg",
+        "nombre": "Abanicos Decorativos",
+        "precio": 10
+      }
+    ],
+    "zapateria": [
+      {
+        "descripcion": "Zapatillas deportivas cómodas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatillas%20deportivas.jpg",
+        "nombre": "Zapatillas Deportivas",
+        "precio": 50
+      },
+      {
+        "descripcion": "Botas de cuero elegantes",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Botas%20de%20cuero.jpg",
+        "nombre": "Botas de Cuero",
+        "precio": 80
+      },
+      {
+        "descripcion": "Sandalias de verano cómodas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Sandalias%20de%20verano.jpg",
+        "nombre": "Sandalias de Verano",
+        "precio": 25
+      },
+      {
+        "descripcion": "Zapatos de vestir formales",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20de%20vestir.jpg",
+        "nombre": "Zapatos de Vestir",
+        "precio": 60
+      },
+      {
+        "descripcion": "Botines de tacón alto",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Botines%20de%20tac%C3%B3n.jpg",
+        "nombre": "Botines de Tacón",
+        "precio": 70
+      },
+      {
+        "descripcion": "Mocasines de cuero",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Mocasines.jpg",
+        "nombre": "Mocasines",
+        "precio": 50
+      },
+      {
+        "descripcion": "Zapatillas de casa cálidas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatillas%20de%20casa.jpg",
+        "nombre": "Zapatillas de Casa",
+        "precio": 20
+      },
+      {
+        "descripcion": "Zapatos de senderismo resistentes",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20de%20senderismo.jpg",
+        "nombre": "Zapatos de Senderismo",
+        "precio": 90
+      },
+      {
+        "descripcion": "Bailarinas cómodas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Bailarinas.jpg",
+        "nombre": "Bailarinas",
+        "precio": 30
+      },
+      {
+        "descripcion": "Zapatos de tacón alto",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20de%20tac%C3%B3n.jpg",
+        "nombre": "Zapatos de Tacón",
+        "precio": 70
+      },
+      {
+        "descripcion": "Sandalias planas cómodas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Sandalias%20planas.jpg",
+        "nombre": "Sandalias Planas",
+        "precio": 25
+      },
+      {
+        "descripcion": "Zapatos de golf especializados",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20de%20golf.jpg",
+        "nombre": "Zapatos de Golf",
+        "precio": 100
+      },
+      {
+        "descripcion": "Zapatos náuticos resistentes al agua",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20n%C3%A1uticos.jpg",
+        "nombre": "Zapatos Náuticos",
+        "precio": 60
+      },
+      {
+        "descripcion": "Zapatos de seguridad con puntera de acero",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20de%20seguridad.jpg",
+        "nombre": "Zapatos de Seguridad",
+        "precio": 80
+      },
+      {
+        "descripcion": "Alpargatas cómodas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Alpargatas.jpg",
+        "nombre": "Alpargatas",
+        "precio": 20
+      },
+      {
+        "descripcion": "Zapatos de ballet flexibles",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20de%20ballet.jpg",
+        "nombre": "Zapatos de Ballet",
+        "precio": 40
+      },
+      {
+        "descripcion": "Zapatos Oxford clásicos",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatos%20Oxford.jpg",
+        "nombre": "Zapatos Oxford",
+        "precio": 75
+      },
+      {
+        "descripcion": "Botas de agua impermeables",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Botas%20de%20agua.jpg",
+        "nombre": "Botas de Agua",
+        "precio": 50
+      },
+      {
+        "descripcion": "Zapatillas slip-on cómodas",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatillas%20slip-on.jpg",
+        "nombre": "Zapatillas Slip-On",
+        "precio": 40
+      },
+      {
+        "descripcion": "Zapatillas de running ligeras",
+        "imagen_url": "https://raw.githubusercontent.com/Santis079/Proyecto_Final/main/TarracoCommerce/public/IMAGES/Productos/Zapateria/Zapatillas%20de%20running.jpg",
+        "nombre": "Zapatillas de Running",
+        "precio": 60
+      }
+    ]
+  }
+}
