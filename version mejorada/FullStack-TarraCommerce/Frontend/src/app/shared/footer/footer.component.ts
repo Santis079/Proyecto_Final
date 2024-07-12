@@ -6,13 +6,15 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './footer.component.html',
-  styles: `
-  #footer {
-    text-align: center;
-    background-color: #96663D;
-    color: #fff;
-    padding: 10px;
-  }
-  `,
+  styles: [
+    `
+      footer {
+        text-align: center;
+        background-color: #96663d;
+        color: #fff;
+        padding: 1em 0;
+      }
+    `,
+  ],
 })
 export class FooterComponent {}

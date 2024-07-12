@@ -11,28 +11,27 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 export class InicioComponent implements AfterViewInit {
   slideIndex: number = 0;
   cantDinero: number = 0;
+  slides = document.getElementsByClassName(
+    'imageneSlider'
+  ) as HTMLCollectionOf<HTMLElement>;
+  dots = document.getElementsByClassName(
+    'puntos'
+  ) as HTMLCollectionOf<HTMLElement>;
 
   showDivs() {
-    const slides = document.getElementsByClassName(
-      'imageneSlider'
-    ) as HTMLCollectionOf<HTMLElement>;
-    const dots = document.getElementsByClassName(
-      'puntos'
-    ) as HTMLCollectionOf<HTMLElement>;
-
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = 'none';
+    for (let i = 0; i < this.slides.length; i++) {
+      this.slides[i].style.display = 'none';
     }
-    for (let i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(' blanco', '');
+    for (let i = 0; i < this.dots.length; i++) {
+      this.dots[i].className = this.dots[i].className.replace(' blanco', '');
     }
 
     this.slideIndex++;
-    if (this.slideIndex > slides.length) {
+    if (this.slideIndex > this.slides.length) {
       this.slideIndex = 1;
     }
-    slides[this.slideIndex - 1].style.display = 'block';
-    dots[this.slideIndex - 1].className += ' blanco';
+    this.slides[this.slideIndex - 1].style.display = 'flex';
+    this.dots[this.slideIndex - 1].className += ' blanco';
   }
 
   carousel() {
@@ -73,7 +72,7 @@ export class InicioComponent implements AfterViewInit {
 
   mostrarDinero(input: HTMLInputElement) {
     const dinero = input.value;
-    this.cantDinero = parseFloat(dinero); // Asegúrate de convertir a número si es necesario
+    this.cantDinero = parseFloat(dinero);
     const mostrarValor = document.getElementById('mostrarValor');
     if (mostrarValor) {
       mostrarValor.textContent = dinero;
